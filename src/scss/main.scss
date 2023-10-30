@@ -1,75 +1,71 @@
 /* syne-regular - latin */
 @font-face {
-   font-display: swap;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 400;
-   src: url('../assets/fonts/syne-v22-latin-regular.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../assets/fonts/syne-v22-latin-regular.woff2') format('woff2');
 }
 /* syne-500 - latin */
 @font-face {
-   font-display: swap;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 500;
-   src: url('../assets/fonts/syne-v22-latin-500.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../assets/fonts/syne-v22-latin-500.woff2') format('woff2');
 }
 /* syne-600 - latin */
 @font-face {
-   font-display: swap;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 600;
-   src: url('../assets/fonts/syne-v22-latin-600.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../assets/fonts/syne-v22-latin-600.woff2') format('woff2');
 }
 /* syne-700 - latin */
 @font-face {
-   font-display: swap;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 700;
-   src: url('../assets/fonts/syne-v22-latin-700.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../assets/fonts/syne-v22-latin-700.woff2') format('woff2');
 }
 /* syne-800 - latin */
 @font-face {
-   font-display: swap;
-   font-family: 'Syne';
-   font-style: normal;
-   font-weight: 800;
-   src: url('../assets/fonts/syne-v22-latin-800.woff2') format('woff2');
+	font-display: swap;
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../assets/fonts/syne-v22-latin-800.woff2') format('woff2');
 }
 
 *,
 *::before,
 *::after {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
-   font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-   min-height: 100vh;
-   width: 100%;
-   font-family: 'Syne', sans-serif;
-   background-color: #090909;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   gap: 4rem;
+	min-height: 100vh;
+	width: 100%;
+	font-family: 'Syne', sans-serif;
+	background-color: #090909;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 4rem;
 }
 
 h1 {
-   color: #f2f2f2;
-   font-weight: 800;
-   font-size: 5rem;
-   text-transform: uppercase;
-}
-
-canvas {
-   background: transparent;
+	color: #f2f2f2;
+	font-weight: 800;
+	font-size: 5rem;
+	text-transform: uppercase;
 }
