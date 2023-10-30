@@ -40,8 +40,8 @@ const animate = () => {
 	const elepsedTime = clock.getElapsedTime()
 
 	// Update object
-	mesh.rotation.y = elepsedTime * Math.PI * 0.6
-	mesh.rotation.x = elepsedTime * Math.PI * 0.1
+	mesh.rotation.y = elepsedTime * Math.PI * 0.2
+	mesh.rotation.x = elepsedTime * Math.PI * 0.2
 
 	// Render
 	renderer.render(scene, camera)
